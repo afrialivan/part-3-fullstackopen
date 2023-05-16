@@ -106,7 +106,7 @@ app.delete('/api/notes/:id', (request, response) => {
 
 app.use(unknownEndpoint)
 
-const PORT = process.env || 3001
+const PORT = 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
